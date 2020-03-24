@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Appsody: Attach node debugger",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "remoteRoot": "/project/user-app",
+            "localRoot": "${workspaceFolder}",
+            "protocol": "inspector"
+        },
+        {
+            "type": "java",
+            "name": "Debug appsody_sample_springboot",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "appsody_sample_springboot"
+        },
+        {
+            "type": "java",
+            "name": "Debug appsody-calculator",
+            "request": "attach",
+            "hostName": "127.0.0.1",
+            "projectName": "appsody-calculator"
+        },
+        {
+            "type": "node",
+            "name": "Debug appsody_sample_nodejs-express",
+            "request": "attach",
+            "address": "127.0.0.1",
+            "localRoot": "/Users/christine.samarchi/Desktop/appsody_sample_nodejs-express",
+            "remoteRoot": "/project/user-app",
+            "restart": true
+        }
+    ]
+}
