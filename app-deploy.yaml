@@ -70,7 +70,7 @@ metadata:
   namespace: ces-kabanero-nodejs
 spec:
   applicationImage: dev.local/appsody-sample-nodejs-express
-  createKnativeService: false
+  createKnativeService: true
   expose: true
   livenessProbe:
     failureThreshold: 12
